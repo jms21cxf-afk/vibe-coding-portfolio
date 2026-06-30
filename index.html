@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>전민숙 — Product Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <span class="logo__icon">전</span>
+        <span class="logo__text">전민숙</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link nav__link--active">Home</a></li>
+          <li><a href="#services" class="nav__link">Services</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#projects" class="nav__link">Projects</a></li>
+          <li><a href="#blogs" class="nav__link">Blogs</a></li>
+          <li><a href="#testimonials" class="nav__link">Testimonials</a></li>
+          <li class="nav__contact-mobile"><a href="#contact" class="btn btn--outline">Contact Me</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="btn btn--outline btn--sm">Contact Me</a>
+
+      <button class="hamburger" id="hamburger" aria-label="메뉴 열기" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <span class="tag">Hello There!</span>
+        <h1 class="hero__title">
+          I'm <span class="highlight">전민숙</span>,<br>
+          Product Designer Based in USA.
+        </h1>
+        <p class="hero__desc">
+          I'm 전민숙, a product designer based in USA. I have rich experience
+          in product design &amp; development, also I am good at what I do.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">
+            <span class="btn__play">▶</span>
+            View My Portfolio
+          </a>
+          <a href="#contact" class="btn btn--ghost">Hire Me</a>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="hero__circle"></div>
+        <img
+          src="증명사진.jpeg"
+          alt="전민숙 — Product Designer"
+          class="hero__photo"
+        >
+        <span class="badge badge--green badge--top">Product Designer</span>
+        <span class="badge badge--yellow badge--bottom">UI/UX Designer</span>
+        <div class="hire-badge">
+          <svg viewBox="0 0 100 100">
+            <defs>
+              <path id="circlePath" d="M 50,50 m -37,0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0"/>
+            </defs>
+            <text>
+              <textPath href="#circlePath">HIRE ME • HIRE ME • </textPath>
+            </text>
+          </svg>
+          <span class="hire-badge__icon">↗</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>App Design <span class="marquee__star">✦</span></span>
+      <span>Website Design <span class="marquee__star">✦</span></span>
+      <span>Dashboard <span class="marquee__star">✦</span></span>
+      <span>Wireframe <span class="marquee__star">✦</span></span>
+      <span>App Design <span class="marquee__star">✦</span></span>
+      <span>Website Design <span class="marquee__star">✦</span></span>
+      <span>Dashboard <span class="marquee__star">✦</span></span>
+      <span>Wireframe <span class="marquee__star">✦</span></span>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">
+          <span class="highlight">Services</span> I Provide
+        </h2>
+        <a href="#" class="btn btn--primary btn--sm">
+          View All Services
+          <span class="btn__arrow">→</span>
+        </a>
+      </div>
+
+      <div class="services__grid">
+        <article class="service-card">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="2"/>
+              <path d="M3 9h18M9 21V9"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">UI/UX Design</h3>
+          <p class="service-card__desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a href="#" class="service-card__link">Learn more <span>→</span></a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="5" y="2" width="14" height="20" rx="2"/>
+              <path d="M12 18h.01"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Mobile App Design</h3>
+          <p class="service-card__desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a href="#" class="service-card__link">Learn more <span>→</span></a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 20h9M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Website Design</h3>
+          <p class="service-card__desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a href="#" class="service-card__link">Learn more <span>→</span></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container about__inner">
+      <div class="about__visual">
+        <div class="about__circle"></div>
+        <img
+          src="증명사진.jpeg"
+          alt="전민숙"
+          class="about__photo"
+        >
+        <span class="skill-tag skill-tag--1">Mobile App Design</span>
+        <span class="skill-tag skill-tag--2">Dashboard</span>
+        <span class="skill-tag skill-tag--3">Wireframe Design</span>
+        <span class="skill-tag skill-tag--4">Design System</span>
+        <span class="skill-tag skill-tag--5">Prototype</span>
+      </div>
+
+      <div class="about__content">
+        <div class="about__label">
+          <span class="about__label-line"></span>
+          About Me
+        </div>
+        <h2 class="about__title">
+          Who is <span class="highlight">전민숙?</span>
+        </h2>
+        <p class="about__desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+        <div class="stats">
+          <div class="stat">
+            <span class="stat__number">600+</span>
+            <span class="stat__label">Project Completed</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">50+</span>
+            <span class="stat__label">Industry Covered</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">18+</span>
+            <span class="stat__label">Years of Experience</span>
+          </div>
+        </div>
+
+        <div class="about__footer">
+          <a href="#" class="btn btn--primary">
+            Download CV
+            <span class="btn__arrow">→</span>
+          </a>
+          <span class="signature">전민숙</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
